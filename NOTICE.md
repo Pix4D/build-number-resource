@@ -1,3 +1,5 @@
+Copyright 2018 Olivier Amblet, and Pix4D SA.
+
 Copyright 2014-2016 Alex Suraci, Chris Brown, and Pivotal Software, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use

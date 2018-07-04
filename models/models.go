@@ -48,7 +48,7 @@ type CheckResponse []Version
 type Source struct {
 	Driver Driver `json:"driver"`
 
-	InitialVersion string `json:"initial_version"`
+	InitialVersion string `json:"initial_build_number"`
 
 	Bucket               string `json:"bucket"`
 	Key                  string `json:"key"`

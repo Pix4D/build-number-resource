@@ -81,7 +81,7 @@ check_uri_with_initial() {
       uri: $(echo $1 | jq -R .),
       branch: \"master\",
       file: \"some-file\",
-      initial_version: $(echo $2 | jq -R .)
+      initial_build_number: $(echo $2 | jq -R .)
     }
   }" | ${resource_dir}/check | tee /dev/stderr
 }
@@ -164,7 +164,7 @@ put_uri_with_bump_and_initial() {
       uri: $(echo $1 | jq -R .),
       branch: \"master\",
       file: \"some-file\",
-      initial_version: $(echo $3 | jq -R .)
+      initial_build_number: $(echo $3 | jq -R .)
     },
     params: {
       bump: $(echo $4 | jq -R .),
